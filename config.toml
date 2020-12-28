@@ -1,17 +1,20 @@
-baseURL = "https://netlify-photo-gallery.netlify.com/"
+baseURL = "https://tsjb.photo/"
 languageCode = "en-us"
-title = "Netlify photo gallery"
+title = "tsjb.photo"
 
 [menu]
   [[menu.main]]
     identifier = "top"
-    name = "Home"
+    name = "Gallery"
     url = "/"
+    weight = 1
   [[menu.main]]
-    identifier = "photos_m"
-    name = "Photo gallery (masonry)"
-    url = "/photos_m/"
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
   [[menu.main]]
-    identifier = "photos_s"
-    name = "Photo gallery (square)"
-    url = "/photos_s/"
+    identifier = "gear"
+    name = "Gear"
+    url = "/gear/"
+    weight = 3

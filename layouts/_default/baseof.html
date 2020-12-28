@@ -13,11 +13,26 @@
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/skeleton.css">
   <link rel="stylesheet" href="/css/masonry.css">
+  <link rel="stylesheet" href="/css/header.css">
 </head>
 
 <body>
   <div class="container">
-    <div class="row" style="margin-top: 5%">
+
+    <header class="top-nav">
+      <a class="home-button" href="/"><img src="/images/logo.png" alt="logo" class="header-image"/></a>
+      <nav class="nav-main">
+          <a class="home-button" href="/">tsjb.photo</a>
+          <ul class="nav-list">
+              <!-- <li style="margin-left: 0"><a class="link" href="/">Home</a></li> -->
+              <li><a class="link" href="https://tsjb.picfair.com">Prints</a></li>
+              <li><a class="link" href="/gear/">Gear</a></li>
+              <li><a class="link" href="/about/">Contact</a></li>
+          </ul>
+      </nav>
+    </header> 
+
+    <!-- <div class="row" style="margin-top: 2%; margin: 0 auto;">
       {{ range .Site.Menus.main }}
       <div class="one-third column">
         <a href="{{ .URL }}" title="{{ .Title }}">
@@ -25,7 +40,7 @@
         </a>
       </div>
       {{ end }}
-    </div>
+    </div> -->
     <!-- Code that all your templates share, like a header -->
     {{ block "main" . }}
     <!-- The part of the page that begins to differ between templates -->
@@ -33,6 +48,18 @@
     {{ block "footer" . }}
     <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
     {{ end }}
+
+    <footer>
+      <div class="footer-content">
+          <div class="footer-info home">
+              <p>© 2020 tsjb.photo</p>
+              <ul class="footer-links">
+                  <li class="footer-link"><a href="https://www.instagram.com/tsjb.photo/" style="text-decoration: none;">Instagram</a></li>
+              </ul>
+          </div>
+      </div>
+  </footer>
+
   </div>
 </body>
 

@@ -1,14 +1,11 @@
 [
-    { "name": "Apple", "src": "/images/apple.jpg" },
-    { "name": "Apple2", "src": "/images/apple2.jpg" },
-    { "name": "Apple3", "src": "/images/apple3.jpg" },
-    { "name": "Apple4", "src": "/images/apple4.jpg" },
-    { "name": "Apple5", "src": "/images/apple5.jpg" },
-    { "name": "Apple6", "src": "/images/apple6.jpg" },
-    { "name": "Bagels", "src": "/images/bagels.jpg" },
-    { "name": "Single bagel", "src": "/images/single-bagel.jpg" },
-    { "name": "Carrots", "src": "/images/carrots.jpg" },
-    { "name": "Latte art", "src": "/images/latte-art.jpg" },
-    { "name": "Noodles", "src": "/images/noodles.jpg" },
-    { "name": "Branches", "src": "/images/branches.png" }
+    { "name": "", "src": "/images/P1010365.jpg" },
+    { "name": "", "src": "/images/P1011113.jpg" },
+    { "name": "", "src": "/images/P3260018.jpg" },
+    { "name": "", "src": "/images/P4100122.jpg" },
+    { "name": "", "src": "/images/P4250048.jpg" },
+    { "name": "", "src": "/images/P5300603.jpg" },
+    { "name": "", "src": "/images/P6140020.jpg" },
+    { "name": "", "src": "/images/P7170019.jpg" },
+    { "name": "", "src": "/images/P7170029.jpg" }
 ]

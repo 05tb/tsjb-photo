@@ -1,0 +1,54 @@
+header .nav-main {
+    margin: 0 auto 0 auto;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding:.75rem 1.5rem */
+}
+
+header .nav-main .home-button {
+    text-decoration: none;
+    color: #212121;
+    /* padding-right: .5rem; */
+    font-size: 24px;
+    font-size: clamp(1.3rem, 4vw, 1.5rem);
+    font-weight:500
+}
+
+header .nav-main .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    list-style:none
+}
+
+header .nav-main .nav-list a:hover, header .nav-main a:hover {
+    text-decoration:underline
+}
+
+nav .nav-list li {
+    margin-right: 1rem;
+    margin-left:1rem;
+    margin-top:3.5rem
+}
+
+nav .nav-list li .link {
+    color: #212121;
+    font-weight: 500;
+    font-size: 20px;
+    font-size: clamp(1.2rem, 4vw, 1.3rem);
+    text-decoration:none
+}
+
+.header-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: -10px;
+  }
