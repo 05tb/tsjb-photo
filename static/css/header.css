@@ -23,7 +23,7 @@ header .nav-main .home-list {
     font-size: 24px;
     font-size: clamp(1.3rem, 4vw, 1.5rem);
     font-weight:500;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
 }
 
 header .nav-main .nav-list {
@@ -43,8 +43,8 @@ header .nav-main .nav-list a:hover, header .nav-main a:hover {
 }
 
 nav .nav-list li {
-    margin-right: 1rem;
-    margin-left:1rem;
+    margin-right:0.5rem;
+    margin-left:0.5rem;
     margin-top:3.5rem
 }
 
@@ -67,32 +67,36 @@ nav .nav-list li .link {
     padding-bottom: -10px;
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 350px) {
     header .nav-main {
-        display: inline-block;
-        margin-bottom: -3rem;
-        margin-left: 0.5rem;
+        display: table;
+        margin-bottom: -1rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     header .nav-main .home-list {
-        float: left;
         margin-bottom: 1rem;
+        font-size: 26px;
+        font-size: clamp(1.5rem, 4vw, 1.5rem);
+        padding: 0;
     }
 
     header .nav-main .nav-list {
-        display: inline-block;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
         padding: 0;
-        margin-top: 20px;
+        text-align: center
     }
 
     nav .nav-list li {
-        margin-right: 0rem;
-        margin-left: -4.9rem;
+        margin: 0;
         margin-top: 1rem
     }
 
     .header-image {
-        margin-left: 1.5rem;
+        margin-left: auto;
         margin-right: auto;
         margin-bottom: 1rem;
       }
