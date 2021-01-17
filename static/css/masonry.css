@@ -65,3 +65,7 @@ tiny {
         column-count: 3;
     }
 }
+
+.hidden {
+    display: none
+}
