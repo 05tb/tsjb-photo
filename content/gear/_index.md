@@ -1,12 +1,12 @@
 ---
 title: "Gear"
-date: 2019-02-11T18:25:55-08:00
+date: 2020-12-28T18:47:38-08:00
 ---
 ### Reviews and Things
 See my [blogs page](/blogs/) for some gear reviews, comparisons, and other things. 
 ### My Gear 
 This is a list of the gear that I most commonly use when out taking photos! 
-##### Cameras & Lenses:
+#### Cameras & Lenses:
 * [Panasonic Lumix G9](https://amzn.to/34LwJRZ)
 
 * [Panasonic Lumix 12-35 2.8 II](https://amzn.to/2L2pw9a)
@@ -16,11 +16,11 @@ This is a list of the gear that I most commonly use when out taking photos!
 * [Olympus 17mm 1.8](https://amzn.to/3ptx1EN)
 * [Olympus 25mm 1.8](https://amzn.to/3aLazTL)
 
-##### Bags: 
+#### Bags: 
 * [Wandrd Prvke 21](https://amzn.to/3pA7KsR)
 * Compagnon Element Sling 11
 
-##### Other Things:
+#### Other Things:
 * Gobe x Urth Filters
     * [UV](https://amzn.to/37TqtcB)
     * [ND Set](https://amzn.to/3mWohFM)

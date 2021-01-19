@@ -23,7 +23,14 @@ header .nav-main .home-list {
     font-size: 24px;
     font-size: clamp(1.3rem, 4vw, 1.5rem);
     font-weight:500;
-    padding-left: 0.5rem;
+}
+
+header .nav-main .home-list a:hover, header .nav-main a:hover {
+    text-decoration:underline;
+    color: #212121;
+    font-weight: 500;
+    font-size: 24px;
+    font-size: clamp(1.3rem, 4vw, 1.5rem);
 }
 
 header .nav-main .nav-list {
@@ -43,8 +50,8 @@ header .nav-main .nav-list a:hover, header .nav-main a:hover {
 }
 
 nav .nav-list li {
-    margin-right:0.5rem;
-    margin-left:0.5rem;
+    margin-right:0rem;
+    margin-left:2rem;
     margin-top:3.5rem
 }
 
@@ -79,7 +86,11 @@ nav .nav-list li .link {
         margin-bottom: 1rem;
         font-size: 26px;
         font-size: clamp(1.5rem, 4vw, 1.5rem);
-        padding: 0;
+    }
+
+    header .nav-main .home-list a:hover, header .nav-main a:hover {
+        font-size: 26px;
+        font-size: clamp(1.5rem, 4vw, 1.5rem);
     }
 
     header .nav-main .nav-list {
@@ -96,8 +107,6 @@ nav .nav-list li .link {
     }
 
     .header-image {
-        margin-left: auto;
-        margin-right: auto;
         margin-bottom: 1rem;
       }
   }
