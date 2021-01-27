@@ -5,7 +5,7 @@
     <p>{{.Content}}</p>
     <ul>
       <!-- Ranges through content/posts/*.md -->
-      {{ range first 5 .Pages }}
+      {{ range .Pages }}
           <li>
               <a href="{{.Permalink}}">{{.Title}} | {{.Date.Format "2006-01-02"}}</a>
           </li>
