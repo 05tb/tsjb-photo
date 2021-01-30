@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="row" style="margin-top: 5%">
+    <div class="masonry">
+        <h1>{{.Title}}</h1>
+        <p>{{.Content}}</p>
+        {{ range $.Site.Data.prints }}
+            <div class="item">
+                <a href="{{ .shop }}">
+                <img src="{{ .src }}?nf_resize=fit&w=300">
+                </a>
+                <div class="top-left">{{ .name }}</div>
+            </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
