@@ -1,6 +1,6 @@
 ---
 title: "Prints"
-date: 2021-01-29T18:47:38-08:00
+date: 2021-01-28T18:47:38-08:00
 ---
 
 A small selection of photos I'm happy to offer as print. 

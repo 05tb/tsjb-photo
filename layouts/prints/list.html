@@ -1,8 +1,12 @@
 {{ define "main" }}
 <div class="row" style="margin-top: 5%">
-    <div class="masonry">
+    <!-- <div class="twelve column"> -->
+    <div>
         <h1>{{.Title}}</h1>
         <p>{{.Content}}</p>
+    </div>
+    <br>
+    <div class="masonry">
         {{ range $.Site.Data.prints }}
             <div class="item">
                 <a href="{{ .shop }}">
