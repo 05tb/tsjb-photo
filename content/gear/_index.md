@@ -5,7 +5,7 @@ date: 2020-12-28T18:47:38-08:00
 ### Reviews and Things
 See my [blogs page](/blogs/) for some gear reviews, comparisons, and other things. 
 ### My Gear 
-This is a list of the gear that I most commonly use when out taking photos! 
+This is a list of the gear that I most commonly use when out taking photos! (Affiliate links).
 #### Cameras & Lenses:
 * [Panasonic Lumix G9](https://amzn.to/34LwJRZ)
 
