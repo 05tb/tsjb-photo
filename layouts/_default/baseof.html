@@ -1,70 +1,18 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>{{ block "title" . }}
-    {{ .Site.Title }}
-    {{ end }}</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/skeleton.css">
-  <link rel="stylesheet" href="/css/masonry.css">
-  <link rel="stylesheet" href="/css/header.css">
-  <link rel="stylesheet" href="/css/footer.css">
-</head>
-
-<body>
-  <div class="container">
-
-    <header class="top-nav">
-      <a class="home-button" href="/"><img src="/images/logo.png" alt="logo" class="header-image"/></a>
-      <nav class="nav-main">
-          <a class="home-list" href="/">tsjb.photo</a>
-          <ul class="nav-list">
-              <!-- <li style="margin-left: 0"><a class="link" href="/">Home</a></li> -->
-              <!-- <li><a class="link" href="https://www.instagram.com/tsjb.photo/">Instagram</a></li> -->
-              <li><a class="link" href="/prints/">Prints</a></li>
-              <li><a class="link" href="/gear/">Gear</a></li>
-              <li><a class="link" href="/blogs/">Blog</a></li>
-              <li><a class="link" href="/about/">About</a></li>
-          </ul>
-      </nav>
-    </header> 
-
-    <!-- <div class="row" style="margin-top: 2%; margin: 0 auto;">
-      {{ range .Site.Menus.main }}
-      <div class="one-third column">
-        <a href="{{ .URL }}" title="{{ .Title }}">
-          {{- .Name -}}
-        </a>
-      </div>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    <div class="container">
+      {{ partial "header.html" . }}
+      <!-- Code that all your templates share, like a header -->
+      {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
       {{ end }}
-    </div> -->
-    <!-- Code that all your templates share, like a header -->
-    {{ block "main" . }}
-    <!-- The part of the page that begins to differ between templates -->
-    {{ end }}
-    {{ block "footer" . }}
-    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-    {{ end }}
-
-    <footer>
-      <div class="footer-content">
-          <div class="footer-info home">
-              <p>© 2021 tsjb.photo</p>
-              <ul class="footer-links">
-                  <li class="footer-link"><a href="https://www.instagram.com/tsjb.photo/" style="text-decoration: none;"><img height='24' style='border:0px;height:24px;' src='/images/instagram.png' border='0' alt='Follow me on Instagram' /></a></li>
-                  <li class="footer-link"><a href='https://ko-fi.com/W7W839H0G' target='_blank'><img height='24' style='border:0px;height:24px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></li>
-                </ul>
-          </div>
-      </div>
-  </footer>
-
-  </div>
-</body>
+      {{ block "footer" . }}
+      {{ partial "footer.html" . }}
+      <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+      {{ end }}
+    </div>
+  </body>
 
 </html>
