@@ -7,7 +7,7 @@ header .nav-main {
     /* padding:.75rem 1.5rem */
 }
 
-header .nav-main .home-button {
+header .nav-main .home-logo {
     text-decoration: none;
     color: #212121;
     /* padding-right: .5rem; */
@@ -16,21 +16,8 @@ header .nav-main .home-button {
     font-weight:500
 }
 
-header .nav-main .home-list {
-    text-decoration: none;
-    color: #212121;
-    /* padding-right: .5rem; */
-    font-size: 24px;
-    font-size: clamp(1.3rem, 4vw, 1.5rem);
-    font-weight:500;
-}
-
-header .nav-main .home-list a:hover, header .nav-main a:hover {
-    text-decoration:underline;
-    color: #212121;
-    font-weight: 500;
-    font-size: 24px;
-    font-size: clamp(1.3rem, 4vw, 1.5rem);
+header .home-list {
+    margin-left:-2rem;
 }
 
 header .nav-main .nav-list {
@@ -74,7 +61,28 @@ nav .nav-list li .link {
     padding-bottom: -10px;
   }
 
-  @media screen and (max-width: 350px) {
+/* .ko-fi {
+    padding-top:4px;
+    margin-left:-8px;
+    margin-right:-8px;
+} */
+
+  @media screen and (max-width: 500px) {
+    header .home-list {
+        margin-bottom: 0rem;
+    }
+
+    nav .home-list li .link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    nav .home-list li .social-link {
+        float: left;
+        padding-right: 0.65rem;
+        padding-left: 0.65rem;
+    }
+
     header .nav-main {
         display: table;
         margin-bottom: -1rem;
@@ -82,13 +90,13 @@ nav .nav-list li .link {
         margin-right: auto;
     }
 
-    header .nav-main .home-list {
+    header .nav-main {
         margin-bottom: 1rem;
         font-size: 26px;
         font-size: clamp(1.5rem, 4vw, 1.5rem);
     }
 
-    header .nav-main .home-list a:hover, header .nav-main a:hover {
+    header .nav-main a:hover, header .nav-main a:hover {
         font-size: 26px;
         font-size: clamp(1.5rem, 4vw, 1.5rem);
     }
@@ -107,6 +115,6 @@ nav .nav-list li .link {
     }
 
     .header-image {
-        margin-bottom: 1rem;
+        /* margin-bottom: 1rem; */
       }
   }
