@@ -1,6 +1,6 @@
 ---
 title: "Sling Bags"
-date: 2021-02-28
+date: 2021-04-28
 tags: ['edc', 'bags', 'sling bags']
 ---
 
